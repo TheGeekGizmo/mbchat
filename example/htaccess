@@ -1,4 +1,0 @@
-AddDefaultCharset UTF-8
-Options +MultiViews
-RewriteEngine On
-RewriteRule http-bind/ http://webchat.mcmaxx.webfactional.com/http-bind/ [P]

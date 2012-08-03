@@ -12,11 +12,11 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			Candy.init('http-bind/', {
-				core: { debug: false , autojoin: true },
+				core: { debug: true },
 				view: { resources: '../res/' }
 			});
 			
-			Candy.Core.connect();
+			Candy.Core.connect('test1@minebook.me', 'test1')
 		});
 	</script>
 </head>
