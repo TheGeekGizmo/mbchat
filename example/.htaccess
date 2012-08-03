@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-AddDefaultCharset UTF-8
-Options +MultiViews
-RewriteEngine On
-RewriteRule http-bind/ http://mcmaxx.webfactional.com/http-bind/ [P]
-=======
 AddDefaultCharset UTF-8
 Options +MultiViews
 RewriteEngine On
 RewriteRule http-bind/ http://mcmaxx.webfactional.com/http-bind/ [P]
 Header add Access-Control-Allow-Origin "*"
->>>>>>> commit 1
+
