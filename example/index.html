@@ -5,18 +5,20 @@
 	<title>Minebook Chat</title>
 	<link rel="shortcut icon" href="../res/img/favicon.png" type="image/gif" />
 	<link rel="stylesheet" type="text/css" href="../res/default.css" />
+    
 	
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	
 	<script type="text/javascript" src="../libs/libs.min.js"></script>
-	<script type="text/javascript" src="../candy.min.js"></script>
+	<script type="text/javascript" src="../chat.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			Candy.init('http://webchat.mcmaxx.webfactional.com/http-bind/', {
-				core: { debug: true },
+				core: { debug: true, autojoin: ['global@conference.minebook.me'] },
 				view: { resources: '../res/' }
 			});
 			
-			Candy.Core.connect('test1@minebook.me', 'test1')
+			Candy.Core.connect();
 		});
 	</script>
 </head>
